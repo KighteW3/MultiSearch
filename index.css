@@ -1,0 +1,147 @@
+.viewport {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #eee
+}
+
+.title-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.children {
+    font-size: 90px
+}
+
+.child-1{
+    color: green;
+    text-decoration: overline;
+}
+
+.child-2 {
+    color: #ee0;
+    position: absolute;
+    transform: translate(10px, 25px);
+    text-decoration: underline;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-form {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchable {
+    width: 91%;
+    height: 90px;
+    color: #444;
+    background: #fff;
+    font-size: xx-large;
+    padding: 10px 10px 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 13px 0 0 13px;
+}
+
+#searchable:focus {
+    border-left: 5px solid green;
+    transition: 0.2s;
+}
+
+.search-icon {
+    width: 9%;
+    background: #fff;
+    border-radius: 0 13px 13px 0;
+}
+
+.search-icon:hover {
+    background: url(colorWallpaper.jpg);
+    background-size: 200px;
+}
+
+.submit-button-container {
+    width: 100%;
+    background-image: url(search-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: inherit;
+}
+
+#submit-button {
+    width: 100%;
+    height: 90px;
+    color: #bbb;
+    background: none;
+    font-size: xx-large;
+    border: none;
+    border-radius: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+
+.ethical-speech {
+    margin: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ethical-speech p {
+    width: 70%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1081px) {
+    #searhcbale {
+        width: 80%;
+    }
+    .search-icon {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    #searchable {
+        width: 75%;
+        font-size: x-large;
+    }
+    .search-icon {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .children {
+        font-size:70px;
+    }
+}
+
+@media only screen and (max-width: 322px) {
+    .children {
+        font-size: 50px;
+    }
+}
