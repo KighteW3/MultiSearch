@@ -35,7 +35,7 @@
 .child-2 {
     color: #ee0;
     position: absolute;
-    transform: translate(10px, 25px);
+    transform: translate(0, 25px);
     text-decoration: underline;
 }
 
