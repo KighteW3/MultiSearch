@@ -9,6 +9,18 @@
     background: #eee
 }
 
+.next-search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-search-container {
+    text-align: center;
+    width: 70%;
+}
+
 .title-container {
     width: 100%;
     display: flex;
