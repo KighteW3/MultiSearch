@@ -3,10 +3,6 @@ function getRandomNumber(min, max) {
     return Math.round(randomize);
 }
 
-// let alberto = getRandomNumber(1,5);
-
-// console.log(alberto);
-
 function noNext() {
     document.querySelector(".next-search-container").style.display = "none";
 }
@@ -24,51 +20,22 @@ function letRandomizeIt() {
     searchObject = [brave, dDG, qWant, metaG, randomizeS];
 }
 
-function randomizeAgain() {
-    letRandomize();
-    return searchObject2 = [brave, dDG, qWant, metaG, randomizeS];
-}
-
 function randomizeValidate() {
     letRandomizeIt();
-    if (searchObject[getRandomNumber(1,3)] == searchObject[4]){
+    if (searchObject[getRandomNumber(0,3)] == searchObject[4]){
         return searchObject;
-    } else if (searchObject[getRandomNumber(1,3)] == searchObject[4]) {
+    } else if (searchObject[getRandomNumber(0,3)] == searchObject[4]) {
         return searchObject;
-    } else if (searchObject[getRandomNumber(1,3)] == searchObject[4]){
+    } else if (searchObject[getRandomNumber(0,3)] == searchObject[4]){
         return searchObject;
-    } else if (searchObject[getRandomNumber(1,3)] == searchObject[4]) {
+    } else if (searchObject[getRandomNumber(0,3)] == searchObject[4]) {
         return searchObject;
     } else {
         randomizeValidate();
     }
 }
 
-/* function randomizeValidate2(){
-    randomizeValidate();
-    searchObject;
-} */
-
 randomizeValidate();
-
-/* function randomizeBucle(){
-    for (i=0;i<10;i++) {
-        randomizeAgain();
-        if (searchObject[0] == searchObject[4]) {
-            return randomizeAgain;
-        }else if (searchObject[4] == searchObject[1]) {
-            return randomizeAgain;
-        }else if (searchObject[4] == searchObject[2]) {
-            return randomizeAgain;
-        }else if (searchObject[4] == searchObject[3]) {
-            return randomizeAgain;
-        }
-    }
-} */
-
-/* letRandomizeIt(); */
-
-/* console.log(brave, dDG, qWant, metaG, randomizeS); */
 
 function nextSearch() {
     if (searchObject[0] == searchObject[4]) {
