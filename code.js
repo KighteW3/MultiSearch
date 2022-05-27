@@ -31,13 +31,13 @@ function randomizeAgain() {
 
 function randomizeValidate() {
     letRandomizeIt();
-    if (searchObject[1] == searchObject[4]){
+    if (searchObject[getRandomNumber(1,3)] == searchObject[4]){
         return searchObject;
-    } else if (searchObject[0] == searchObject[4]) {
+    } else if (searchObject[getRandomNumber(1,3)] == searchObject[4]) {
         return searchObject;
-    } else if (searchObject[3] == searchObject[4]){
+    } else if (searchObject[getRandomNumber(1,3)] == searchObject[4]){
         return searchObject;
-    } else if (searchObject[2] == searchObject[4]) {
+    } else if (searchObject[getRandomNumber(1,3)] == searchObject[4]) {
         return searchObject;
     } else {
         randomizeValidate();
