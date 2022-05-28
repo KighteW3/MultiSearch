@@ -3,14 +3,6 @@ function getRandomNumber(min, max) {
     return Math.round(randomize);
 }
 
-//It erase the nextSearch element when it doesn't have a search selected
-
-/* function noNext() {
-    document.querySelector(".next-search-container").style.display = "none";
-} */
-
-//
-
 function letRandomize(){
     brave = getRandomNumber(1,4);
     dDG = getRandomNumber(1,4);
