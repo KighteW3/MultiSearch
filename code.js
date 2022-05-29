@@ -68,3 +68,54 @@ function formSubmit(){
         randomizeBucle();
     }
 }
+
+/* let changeTo = document.querySelector(".button-theme");
+
+let validateChange = false;
+
+changeTo.addEventListener("click", startProccess);
+
+function startProccess() {} */
+
+/* let modoActual = false;
+
+let prueba = document.querySelector(".button-theme");
+
+let prueba2 = document.querySelector(".button-theme");
+
+prueba.addEventListener("click", themeValidate);
+
+function themeValidate() {
+    if (modoActual == false) {
+        prueba2.addEventListener("click", changeToDark)
+    } else if (modoActual == true) {
+        prueba2.addEventListener("click", changeToLight);
+    }
+}
+
+
+function changeToDark() {
+    if (modoActual == false) {
+        document.querySelector(".child-1").style = "color:#eee";
+        document.querySelector(".child-2").style = "color:#666";
+        document.querySelector(".viewport").style = "background:#333";
+        document.querySelector(".next-search").style = "color:#eee";
+        document.querySelector(".ethical-speech").style = "color:#eee";
+        document.querySelector("#searchable").style = "background:#888; color:#eee";
+        document.querySelector(".search-icon").style = "background:#888";
+        modoActual = true;
+    }
+}
+
+function changeToLight() {
+    if (modoActual == true) {
+        document.querySelector(".child-1").style = "color:#0a0";
+        document.querySelector(".child-2").style = "color:#ee0";
+        document.querySelector(".viewport").style = "background:#333";
+        document.querySelector(".next-search").style = "color:#auto";
+        document.querySelector(".ethical-speech").style = "color:#eee";
+        document.querySelector("#searchable").style = "background:#888; color:#eee";
+        document.querySelector(".search-icon").style = "background:#888";
+        modoActual = false;
+    }
+} */
