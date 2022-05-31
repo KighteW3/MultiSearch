@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 
-.twist-theme-container {
+/*.twist-theme-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@
     width: 70px;
     height: 70px;
     background-image: url(moon.png);
-}
+}*/
 
 .next-search-container {
     width: 100%;
