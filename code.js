@@ -33,6 +33,8 @@ function randomizeValidate() {
 
 randomizeValidate();
 
+console.log(randomValidate);
+
 function nextSearch() {
     if (searchObject[0] == searchObject[4]) {
         let braveN = "Brave";
