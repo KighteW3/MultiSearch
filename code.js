@@ -33,7 +33,7 @@ function randomizeValidate() {
 
 randomizeValidate();
 
-console.log(randomValidate);
+console.log(randomizeValidate);
 
 function nextSearch() {
     if (searchObject[0] == searchObject[4]) {
