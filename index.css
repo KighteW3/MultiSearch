@@ -105,7 +105,7 @@
 }
 
 #searchable:focus {
-    border-left: 5px solid #eee;
+    border-left: 5px solid green;
     transition: 0.2s;
 }
 
