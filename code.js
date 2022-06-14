@@ -55,19 +55,20 @@ function nextSearch() {
 
 nextSearch();
 
+let submitButton = document.getElementById("submit-button");
 
-function formSubmit(){
-    let content = document.getElementById("searchable").value;
-    if (searchObject[0] == searchObject[4]) {
-        window.open(`https://search.brave.com/search?q=${content}`);
-    }else if (searchObject[4] == searchObject[1]) {
-        window.open(`https://duckduckgo.com/?q=${content}`);
-    }else if (searchObject[4] == searchObject[2]) {
-        window.open(`https://www.qwant.com/?q=${content}`);
-    }else if (searchObject[4] == searchObject[3]) {
-        window.open(`https://metager.es/meta/meta.ger3?eingabe=${content}&focus=web&s=&f=&ff=&ft=&m=`);
-    }else{
-        randomizeBucle();
-    }
-}
-
+submitButton.addEventListener("click", (e)=>{
+	e.preventDefault();
+	let content = document.getElementById("searchable").value;
+        if (searchObject[0] == searchObject[4]) {
+		window.open(`https://search.brave.com/search?q=${content}`, "_self");
+	}else if (searchObject[4] == searchObject[1]) {
+		window.open(`https://duckduckgo.com/?q=${content}`, "_self");
+	}else if (searchObject[4] == searchObject[2]) {
+		window.open(`https://www.qwant.com/?q=${content}`, "_self");
+	}else if (searchObject[4] == searchObject[3]) {
+		window.open(`https://metager.es/meta/meta.ger3?eingabe=${content}&focus=web&s=&f=&ff=&ft=&m=`, "_self");
+	}else{
+		randomizeBucle();
+	}
+});
